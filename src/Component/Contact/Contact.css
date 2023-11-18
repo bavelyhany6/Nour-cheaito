@@ -1,0 +1,97 @@
+.contact-title{
+    font-size: 100px;
+    font-style: italic;
+}
+.contact-title2{
+    font-size: 90px;
+    font-style: italic;
+    display: none;
+}
+.contact-title3{
+    font-size: 90px;
+    font-style: italic;
+    display: block;
+}
+@media all and (max-width: 992px) {
+    .contact-title{
+        font-size: 60px;
+    }
+    .contact-title2{
+        font-size: 50px;
+        display: none !important;
+    }
+    .contact-title3{
+        font-size: 50px;
+        font-style: italic;
+        display: block !important;
+    }
+    .cont-info{
+        font-size: 20px !important;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    }
+}
+@media all and (max-width: 767px) {
+    .contact-title{
+        font-size: 60px;
+    }
+    .contact-title2{
+        font-size: 50px;
+        display: block !important;
+    }
+    .contact-title3{
+        font-size: 90px;
+        font-style: italic;
+        display: none !important;
+    }
+    .cont-info{
+        font-size: 20px !important;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    }
+}
+@media all and (max-width: 400px) {
+    .contact-title{
+        font-size: 50px;
+    }
+    .contact-title2{
+        font-size: 50px;
+        display: block !important;
+    }
+    .contact-title3{
+        font-size: 90px;
+        font-style: italic;
+        display: none !important;
+    }
+    .cont-info{
+        font-size: 20px !important;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    }
+}
+.tik {
+    transition: 0.2s;
+  }
+  .tik:hover {
+    color: aqua !important;
+    transition: 0.2s;
+  }
+  .whats {
+    transition: 0.2s;
+  }
+  .whats:hover {
+    color: #43e461 !important;
+    transition: 0.2s;
+  }
+  .insta {
+    transition: 0.2s;
+  }
+  .insta:hover {
+    color: #8c3cb4 !important;
+    transition: 0.2s;
+  }
+  .email {
+    transition: 0.2s;
+  }
+  .email:hover {
+    color: #f54f41 !important;
+    transition: 0.2s;
+  }
+

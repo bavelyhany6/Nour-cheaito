@@ -1,0 +1,48 @@
+a , Link{
+  text-decoration: none !important;
+}
+body{
+  background-color: #141414;
+  font-family: 'Anton', sans-serif;
+/* font-family: 'Inter', sans-serif;
+font-family: 'Pacifico', cursive; */
+overflow-x: hidden;
+}
+html{
+  overflow-x: hidden;
+}
+.font-not{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+  font-size: 23px;
+}
+.yellow{
+  color: #F9EF23;
+}
+.bg-yellow{
+  background-color: #F9EF23;
+}
+
+.bg-main{
+  background-color: #141414 !important;
+}
+/* ///////////////////////////ScrollBar////////////////////////////// */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px black; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #F9EF23; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: white; 
+}

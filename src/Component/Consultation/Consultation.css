@@ -1,0 +1,57 @@
+.border-yellow{
+    border: 30px solid yellow;
+}
+.cons-title{
+    font-size: 100px;
+    font-style: italic;
+}
+.cons-foot{
+    font-size: 95px;
+}
+.cons-text-res{
+    font-size: 30px !important;
+}
+@media all and (min-width: 992px){
+    .cons-title{
+        font-size: 75px;
+    }
+    .cons-foot{
+        font-size: 70px;
+    }
+    .cons-text-res{
+        font-size:25px !important;
+    }
+}
+@media all and (max-width: 992px){
+    .cons-title{
+        font-size: 50px;
+    }
+    .cons-foot{
+        font-size: 37px;
+    }
+    .cons-text-res{
+        font-size:17px !important;
+    }
+}
+@media all and (max-width: 767px){
+    .cons-title{
+        font-size: 33px;
+    }
+    .cons-foot{
+        font-size: 37px;
+    }
+    .cons-text-res{
+        font-size: 20px !important;
+    }
+}
+@media all and (max-width: 400px){
+    .cons-title{
+        font-size: 33px;
+    }
+    .cons-foot{
+        font-size: 37px;
+    }
+    .cons-text-res{
+        font-size: 20px !important;
+    }
+}

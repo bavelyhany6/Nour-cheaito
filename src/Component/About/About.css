@@ -1,0 +1,18 @@
+.about-title{
+    font-size: 100px;
+}
+.about-text{
+    font-size: 24px;
+}
+@media all and (max-width: 600px) {
+    .about-title{
+        font-size: 40px;
+    }
+    .about-text{
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+    }  
+    .abo{
+        width: 50% !important;
+    }
+}

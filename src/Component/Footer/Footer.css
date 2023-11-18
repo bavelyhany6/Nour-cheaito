@@ -1,0 +1,8 @@
+.footer-dis{
+    display: flex !important;
+}
+@media all and (max-width: 500px) {
+    .footer-dis{
+        display: block !important;
+    }
+}
